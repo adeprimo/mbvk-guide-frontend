@@ -23,8 +23,7 @@
         <div class="header">
           <div class="description">
             <a class="logo" href="#">
-              <img src="{$file-root}/logo.png"
-                             alt="LunchGuiden" />
+              <img src="{$file-root}/logo.png" alt="LunchGuiden" />
             </a>
           </div>
           <div class="filter">
@@ -117,11 +116,11 @@
       <div>
         <div class="galleri-item">
           <div class="item-inner">
-            <div class="img-logo"><img class="item-image" src="{$site-root}/{$img}" alt=""/></div>
+            <div class="img-logo"><img class="item-image show-detailed" src="{$site-root}/{$img}" alt=""/></div>
             <h2 class="krogare-logo"><a href="#" id="{$spotid}" class="block-link show-detailed">
               {{ SpotName }}</a></h2>
             <div class="lunch-text">{{ Description }}</div>
-            <div class="lunch-pris">{{ OtherInfo }}</div>
+			<div class="lunch-pris">{{ OtherInfo }}</div>
             <div class="vcard">
               <dl>
                 <dt class="icon icon-more fn">{{ SpotName }}</dt>
@@ -133,7 +132,7 @@
 				<dt class="icon icon-mail"></dt>
                 <dd><a class="email" href="mailto:{$mail}">{{ Email }}</a></dd>
 				<dt class="icon icon-url"></dt>
-                <dd><a class="url" href="{$url}">{{ URL }}</a></dd>
+                <dd><a class="url" href="{$url}" target="_blank">{{ URL }}</a></dd>				
               </dl>
             </div>
           </div>
@@ -144,12 +143,12 @@
       <div>
         <div class="galleri-item">
           <div class="item-inner">
-            <img class="item-image" src="{$site-root}/{$img}" alt=""/>
+            <div class="img-logo"><img class="item-image show-detailed" src="{$site-root}/{$img}" alt=""/></div>
             <h2 class="krogare-logo"><a href="#" id="{$spotid}" class="block-link show-detailed">
               {{ SpotName }}</a></h2>
 
             <div class="lunch-text">{{ Description }}</div>
-            <div class="lunch-pris">{{ OtherInfo }}</div>
+			<div class="lunch-pris">{{ OtherInfo }}</div>
             <div class="vcard">
               <dl>
                 <dt class="icon icon-more fn">{{ SpotName }}</dt>
@@ -161,7 +160,7 @@
 				<dt class="icon icon-mail"></dt>
                 <dd><a class="email" href="mailto:{$mail}">{{ Email }}</a></dd>
 				<dt class="icon icon-url"></dt>
-                <dd><a class="url" href="{$url}">{{ URL }}</a></dd>
+                <dd><a class="url" href="{$url}" target="_blank">{{ URL }}</a></dd>											
               </dl>
             </div>
             <div class="favorite"></div>
@@ -210,6 +209,7 @@
 			<div class="modal-weekdays">
               {{ yield }}
 			</div>
+			<div class="lunch-pris">{{ OtherInfo }}</div>
 			<div class="clearer-description">
               <p>{{ Description }}</p>
               <p class="vcard">
@@ -219,7 +219,7 @@
                 &#183;
                 E-post: <a class="email" href="mailto:{$mail}">{{ Email }}</a>
                 &#183;
-                <a class="url" href="{$url}">{{ URL }}</a>
+                <a class="url" href="{$url}" target="_blank">{{ URL }}</a>
               </p>
             </div>
             <a href="#" id="{$id}" class="block-link add-to-favorites">G&#246;r till favorit</a>
@@ -236,7 +236,7 @@
           <xsl:if test="guide:Images/guide:Image[guide:IsTeaser/text()='true']">
             <xsl:variable name="image-path" select="guide:Images/guide:Image[guide:IsTeaser/text()='true']/guide:Src"/>
             <xsl:variable name="image-alt" select="guide:Images/guide:Image[guide:IsTeaser/text()='true']/guide:Alt"/>
-            <img class="item-image" src="{$site-root}/{$image-path}" alt="{$image-alt}"/>
+            <img class="item-image show-detailed" src="{$site-root}/{$image-path}" alt="{$image-alt}"/>
           </xsl:if>
         </a>
         <h3 class="krogare-logo">
