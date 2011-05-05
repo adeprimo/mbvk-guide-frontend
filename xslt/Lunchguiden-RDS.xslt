@@ -116,7 +116,7 @@
       <div>
         <div class="galleri-item">
           <div class="item-inner">
-            <div class="img-logo"><img class="item-image show-detailed" src="{$site-root}/{$img}" alt=""/></div>
+            <div class="img-logo"><img class="item-image show-detailed-second" src="{$site-root}/{$img}" alt=""/></div>
             <h2 class="krogare-logo"><a href="#" id="{$spotid}" class="block-link show-detailed">
               {{ SpotName }}</a></h2>
             <div class="lunch-text">{{ Description }}</div>
@@ -143,7 +143,7 @@
       <div>
         <div class="galleri-item">
           <div class="item-inner">
-            <div class="img-logo"><img class="item-image show-detailed" src="{$site-root}/{$img}" alt=""/></div>
+            <div class="img-logo"><img class="item-image show-detailed-second" src="{$site-root}/{$img}" alt=""/></div>
             <h2 class="krogare-logo"><a href="#" id="{$spotid}" class="block-link show-detailed">
               {{ SpotName }}</a></h2>
 
