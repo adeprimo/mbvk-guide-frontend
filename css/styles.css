@@ -1,0 +1,580 @@
+/* @override 
+	http://lunchguide.adeprimo.se/themes/lunchguide/rds/styles.css
+	http://lunchguiden.mu/themes/lunchguide/rds/styles.css
+*/
+
+/* Reset sidhuvud polopoly */
+#topUserToolbar {display:none !important;}
+#mainWrapper #topHeaderContents {height:0 !important;}
+/* //reset */
+
+/* Sajt specifik CSS */
+.guide-hn .header {
+  width: 990px;
+  height: 255px;
+  background: #fcfef2 url(top-hn.png) no-repeat 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.guide-hp .header {
+  width: 990px;
+  height: 255px;
+  background: #fcfef2 url(top-hp.png) no-repeat 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.guide-ttela .header {
+  width: 990px;
+  height: 255px;
+  background: #fcfef2 url(top-ttela.png) no-repeat 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.guide-bohu .header {
+  width: 990px;
+  height: 255px;
+  background: #fcfef2 url(top-bohu.png) no-repeat 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* //Sajt specifik CSS */
+
+/* Generell CSS */
+
+h1, h2, h3, h4 {
+  font-size: 100%;
+  padding: 0;
+  margin: 0; 
+}
+
+.structural {
+  position: absolute;
+  top: 0;
+  left: -999em; 
+}
+
+.unit {
+  float: left; 
+}
+
+.line {
+  overflow: hidden; 
+}
+
+.block-link {
+  color: #444;
+  text-decoration: none;
+  display: block; 
+}
+
+#guide-wrapper {
+  background: #fff;
+  color: #444;
+  font: normal small/1.5 sans-serif;
+}
+
+#guide-wrapper fieldset {
+  border: 0; 
+}
+
+#guide-ad-1 {
+   margin: 0 auto;
+}
+
+.favorite {
+  background: #b6c97d url(star.png) no-repeat 0 0;
+  text-indent: -99em;
+  width: 17px;
+  height: 17px;
+}
+
+/* //Generell-CSS */
+
+/* Huvud */
+
+.logo {
+  display: block;
+  margin-bottom: 20px;
+  padding-top: 17px;
+  padding-left: 17px;
+}
+
+.filter-heading {
+  float: left; 
+  padding-right: 15px;
+  line-height: 30px;
+}
+
+#spot-categories {
+  position: absolute; 
+  bottom: 27px;
+  left: 10px;
+}
+
+#spot-categories h3.filter-heading {
+	font-size: 110%;
+    font-weight: bold;
+	margin: 5px 5px 0 0;
+}
+
+#spot-categories .unit {
+  margin-right: 5px; 
+}
+
+#spot-categories label.guide-category-wifi {background:url(filter-sprite.png) no-repeat 0 0}
+#spot-categories label.selected.guide-category-wifi {background:url(filter-sprite.png) no-repeat 0 -57px}
+#spot-categories label.guide-category-alcohol {background:url(filter-sprite.png) no-repeat 0 -108px}
+#spot-categories label.selected.guide-category-alcohol {background:url(filter-sprite.png) no-repeat 0 -164px}
+#spot-categories label.guide-category-kaffe {background:url(filter-sprite.png) no-repeat 0 -219px}
+#spot-categories label.selected.guide-category-kaffe {background:url(filter-sprite.png) no-repeat 0 -275px}
+#spot-categories label.guide-category-cardpayment {background:url(filter-sprite.png) no-repeat 0 -326px}
+#spot-categories label.selected.guide-category-cardpayment {background:url(filter-sprite.png) no-repeat 0 -382px}
+#spot-categories label.guide-category-handicap {background:url(filter-sprite.png) no-repeat 0 -438px}
+#spot-categories label.selected.guide-category-handicap {background:url(filter-sprite.png) no-repeat 0 -494px}
+
+
+ #spot-categories label {
+  text-indent: -99em;
+  display: block;
+  overflow: hidden;
+  width: 25px;
+  height: 25px; 
+  cursor: pointer;
+} 
+
+#spot-categories label.selected {
+  opacity: 1;
+}
+
+#spot-categories input {
+  position: absolute;
+  visibility: hidden; 
+}
+
+/* //huvud */
+
+.line.krogare-lista .galleri-item .favorite { 
+	left: 220px;
+    position: absolute;
+    top: 23px;
+}
+
+.resultat {
+	margin: 0 0 5px;
+ 	border-top: 4px solid #8ba259;
+	border-bottom: 1px solid #CCCCCC;
+  	width: 948px;
+  	padding: 0 21px 5px;
+}
+
+.summary {
+}
+
+.views {
+  float: right;
+}
+
+.view-item {
+  display: block;
+  color: #999;
+  text-decoration: none; 
+  padding-left: 40px; 
+  margin-right: 6px;
+  background: url(galleri-off.png) no-repeat 11px 46%;
+}
+
+.view-item-selected {
+  color: #8ba259;
+  background: url(galleri-on.png) no-repeat 11px 46%;
+}
+
+.view-item-list {
+  background-image: url(lista-off.png);   
+}
+
+.view-item-list.view-item-selected {
+  background-image: url(lista-on.png);
+}
+
+.krogare-logo {
+  color: #426b7f;
+  font-size: 140%;
+  padding: 12px 0 !important;
+  font-weight:bold;
+}
+
+.krogare-logo > a {
+  color: #426b7f !important;
+  font-style: italic; 
+}
+
+.lunch-text p {
+  margin: 0;
+  padding: 0 0 8px;
+  line-height: 1.3em;
+}
+
+.lunch-text i,
+.lunch-text i:last-child,
+.lunch-text em,
+.lunch-text em:last-child,
+.lunch-text b,
+.lunch-text b:last-child,
+.lunch-text strong,
+.lunch-text strong:last-child {
+  position: absolute;
+  bottom: 27px;
+  left: 0;
+  right: 0; 
+  font: italic 145%/1.1 georgia, serif;
+}
+
+#guide-datepicker {
+  position: absolute;
+  left: 8px; 
+  padding: 1px;
+  bottom: 81px;
+}
+
+#guide-datepicker .unit {
+  text-align: center;
+}
+
+#guide-datepicker input {
+  position: absolute;
+  visibility: hidden; 
+}
+
+.dp-label {
+  display: block;
+  width: 61px;
+  height: 40px; 
+  cursor: pointer;
+}
+
+.dp-label-selected {
+  background: url(arrow.png) no-repeat 50% 100%; 
+  color: #747a3b;
+  font-weight: bold;
+}
+
+#guide-search {
+  line-height: 30px;
+  height: 30px;
+  width: 213px;
+  border: 0;
+  padding: 0 0 0 33px;
+  font-size: 103%;
+  float: left;
+  margin-left: 20px;
+  background: url(zoom.png) no-repeat 0 0;
+}
+
+.submit-button {
+  background: #9fab5b;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+  -moz-box-shadow: 0px 2px 2px #b9ba9d;
+  -webkit-box-shadow: 0px 2px 2px #b9ba9d;
+  box-shadow: 0px 2px 2px #b9ba9d;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border-width: 2px 0 0;
+  border-top: 2px solid #c2c79b;
+  height: 29px;
+  width: 45px;
+  font-size: 116%;
+  margin-left: 8px;
+}
+
+#food-categories {
+  padding-top: 7px; 
+}
+
+.food-category-label {
+  padding: 0 11px 0 1px; 
+}
+
+/* Launcher */
+
+.guide-wrapper .luncher.line {
+	padding: 0 0 20px;
+}
+
+/* Launcher */
+
+/* Resultat */
+
+.resultat.line h2#guide-results-summary {
+	color: #999999;
+    margin: 10px 0 0;
+}
+
+.resultat.line .views h3.unit {
+	margin: 10px 5px 0 0;
+}
+
+.resultat.line .views a {
+	margin: 10px 0 0 0;
+}
+
+/* Resultat */
+
+/*	Galleri */
+
+.krogare-galleri {
+  width: 970px;
+  margin: 0 auto 20px;
+}
+
+#guide-results .line.krogare-galleri .galleri-item .item-inner {
+	padding:10px 15px;
+}
+
+.line.krogare-galleri .img-logo {
+	line-height: 10em;
+    margin-top: 10px;
+}
+
+.krogare-galleri .img-logo img.item-image {
+  vertical-align: middle;
+  max-height: 125px;
+  max-width: 200px;
+}
+
+.krogare-galleri .galleri-item {
+  float: left;
+  position: relative;
+  width: 230px;
+  border: 1px solid #c4c4c4;
+  margin: 5px;
+  text-align: center;
+  height: 400px;
+  overflow:hidden;
+}
+
+.line.krogare-galleri .galleri-item .item-inner {
+	padding:10px 15px;
+}
+
+.line.krogare-galleri .galleri-item .item-inner .lunch-text {
+
+}
+
+.line.krogare-galleri .galleri-item .item-inner .lunch-pris {
+	font-size: 150%;
+    font-weight: bold;
+	font-style: italic;
+}
+
+.krogare-galleri .favorite {
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+}
+
+.line.krogare-galleri .galleri-item .item-inner .vcard {display:none;}
+
+/*	Listvy  */
+
+.krogare-lista {
+  width: 990px;
+  margin: 20px auto;
+}
+
+.krogare-lista .galleri-item {
+   margin-bottom: 10px;
+   overflow: hidden;
+   position:relative;
+}
+
+.krogare-lista .item-inner {
+   border: 1px solid #c4c4c4;
+   padding: 10px;
+   margin:0 0 10px;
+}
+
+.krogare-lista .item-inner {
+  width: 958px;
+  min-height: 130px; 
+}
+
+.krogare-lista .item-image {
+   float: left;
+   margin: 0;
+}
+
+.krogare-lista .lunch-text { 
+	margin-left: 230px;
+}
+
+.krogare-lista .lunch-pris { 
+	position:absolute;
+	top:15px;
+	right:40px;
+	font-size: 150%;
+    font-weight: bold;
+	font-style: italic;
+}
+
+.line.krogare-lista .galleri-item .item-inner h2.krogare-logo {
+	margin-left: 230px;
+}
+
+.line.krogare-lista .galleri-item .item-inner .vcard {
+	margin: 0 0 0 230px;
+    padding: 10px 0 0;
+	border-top: 1px solid #EEEEEE;
+	font-size: 85%;
+}
+
+.line.krogare-lista .galleri-item .item-inner .vcard a.show-detailed-second {display:none;}
+
+.line.krogare-lista .galleri-item .item-inner .vcard dt {display:inline; margin-right: 5px; font-weight:bold;}
+.line.krogare-lista .galleri-item .item-inner .vcard dd {display:inline; margin-right: 15px;}
+
+.line.krogare-lista .galleri-item .item-inner .vcard dt.icon.icon-more.fn {font-weight: bold; margin-right: 20px; color:#426B7F !important;}
+.line.krogare-lista .galleri-item .item-inner .vcard a.url {color:#426B7F !important; text-decoration:underline;}
+
+/*	Modal detaljvy  */
+
+#guide-modal {
+  position: fixed;
+  top: 135px;
+  left: 50%;
+  background-color: #444;
+  background-color: rgba(0, 0, 0, .6);
+  padding: 20px;
+  margin-left: -445px;
+}
+
+#guide-modal-inner {
+  background-color: #fff;
+  padding: 15px; 
+  width: 820px;
+  overflow: auto;
+  font-weight:bold;
+}
+
+#guide-modal-inner .lunch-pris {
+    border-bottom: 1px solid #EEEEEE;
+    clear: both;
+    font-size: 140%;
+    font-style: italic;
+    margin-bottom: 5px;
+    padding: 0 0 10px;
+    text-align: center;
+}
+
+#guide-modal-inner .clearer-description p a.url, #guide-modal-inner .clearer-description p a.email {
+	color:#426B7F !important; text-decoration:underline;
+}
+
+#guide-modal-content {
+  position: relative;   
+}
+
+#close-guide-modal {
+  width: 37px;
+  height: 37px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font: normal 27px/35px 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.add-to-favorites, .remove-from-favorites {
+  background: #9fab5b !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 0 #000 !important;
+  -moz-box-shadow: 0px 2px 2px #b9ba9d !important;
+  -webkit-box-shadow: 0px 2px 2px #b9ba9d !important;
+  box-shadow: 0px 2px 2px #b9ba9d !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  border-radius: 4px !important;
+  border-width: 2px 0 0 !important;
+  border-top: 2px solid #c2c79b !important;
+  height: 38px;
+  width: 220px;
+  display: block;
+  line-height: 38px;
+  text-align: center;
+  font-size: 130%;
+  margin: 20px auto 0;
+}
+
+#guide-modal .modal-weekdays .unit {
+    margin: 10px 14px 20px 0;
+    width: 150px;
+}
+#guide-modal .modal-weekdays .unit h3 {
+	font-size: 140%;
+    font-weight: bold;
+    margin: 3px 0 7px;
+    text-align: center;
+}
+
+#guide-modal .modal-weekdays .unit .lunch-text {
+	text-align:center;
+	font-style: italic;
+    font-weight: normal;
+}
+
+#guide-modal .clearer-description {
+	clear:both;
+	text-align:center;
+}
+
+#guide-modal .restaurant-images.line .unit {
+	margin:0 5px 0 0;
+}
+#guide-modal .restaurant-images.line .unit img {
+	max-width:200px;
+}
+
+#guide-modal #guide-modal-content #guide-modal-inner h2.structural {
+    left: 0 !important;
+    position: relative !important;
+    text-align: center;
+	color:#426B7F !important;
+	font-size:140%;
+	font-style:italic;
+}
+
+/* //modal detaljvy */
+
+/*	debug  */
+
+#guide-ad-1 {
+  position: relative; 
+}
+
+/* #guide-ad-1:before {
+  content: 'Annons';
+  top: 10px;
+  left: 10px;
+} */
+
+/*
+  mktwebb selectorer ska in här istället.
+*/
+
+.guide-outer {
+  background: none;
+}
+
+.guide-shadow {
+  background: none; 
+  padding: 0;
+  width:auto; 
+  margin:0;
+}
