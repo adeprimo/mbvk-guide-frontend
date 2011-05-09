@@ -439,13 +439,16 @@ h1, h2, h3, h4 {
 .line.krogare-lista .galleri-item .item-inner .vcard dd {display:inline; margin-right: 15px;}
 
 .line.krogare-lista .galleri-item .item-inner .vcard dt.icon.icon-more.fn {font-weight: bold; margin-right: 20px; color:#426B7F !important;}
-.line.krogare-lista .galleri-item .item-inner .vcard a.url {color:#426B7F !important; text-decoration:underline;}
+.line.krogare-lista .galleri-item .item-inner .vcard a.url, .line.krogare-lista .galleri-item .item-inner .vcard a.email {
+    color: #426B7F !important;
+    text-decoration: underline;
+}
 
 /*	Modal detaljvy  */
 
 #guide-modal {
   position: fixed;
-  top: 135px;
+  top: 120px;
   left: 50%;
   background-color: #444;
   background-color: rgba(0, 0, 0, .6);
