@@ -130,9 +130,9 @@
                 <dt class="icon icon-phone">Telefon</dt>
                 <dd><a href="tel: {$phone}" class="tel">{{ Phone }}</a></dd>
 				<dt class="icon icon-mail"></dt>
-                <dd><a class="email" href="mailto:{$mail}">{{ Email }}</a></dd>
+                <dd><a class="email" href="mailto:{$mail}" title="E-postadress">{{ Email }}</a></dd>
 				<dt class="icon icon-url"></dt>
-                <dd><a class="url" href="{$url}" target="_blank">{{ URL }}</a></dd>				
+                <dd><a class="url" href="{$url}" title="G&#229; till hemsidan" target="_blank">{{ URL }}</a></dd>				
               </dl>
             </div>
           </div>
@@ -158,9 +158,9 @@
                 <dt class="icon icon-phone">Telefon</dt>
                 <dd><a href="tel: {$phone}" class="tel">{{ Phone }}</a></dd>
 				<dt class="icon icon-mail"></dt>
-                <dd><a class="email" href="mailto:{$mail}">{{ Email }}</a></dd>
+                <dd><a class="email" href="mailto:{$mail}" title="E-postadress">{{ Email }}</a></dd>
 				<dt class="icon icon-url"></dt>
-                <dd><a class="url" href="{$url}" target="_blank">{{ URL }}</a></dd>											
+                <dd><a class="url" href="{$url}" title="G&#229; till hemsidan" target="_blank">{{ URL }}</a></dd>											
               </dl>
             </div>
             <div class="favorite"></div>
@@ -219,7 +219,7 @@
                 &#183;
                 E-post: <a class="email" href="mailto:{$mail}">{{ Email }}</a>
                 &#183;
-                <a class="url" href="{$url}" target="_blank">{{ URL }}</a>
+                <a class="url" href="{$url}" target="_blank" title="G&#229; till hemsidan">{{ URL }}</a>
               </p>
             </div>
             <a href="#" id="{$id}" class="block-link add-to-favorites">G&#246;r till favorit</a>
