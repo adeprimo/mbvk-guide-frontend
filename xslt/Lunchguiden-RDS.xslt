@@ -67,23 +67,23 @@
                 <h3 class="filter-heading">Filtrera:</h3>
                 <div class="unit">
                   <input id="guide-categories-wifi" type="checkbox" value="Wi-Fi" name="Categories[Wi-Fi]" />
-                  <label for="guide-categories-wifi" class="guide-category-wifi">Wi-Fi</label>
+                  <label for="guide-categories-wifi" class="guide-category-wifi" title="Filtrera p&#229; restauranger med tr&#229;dl&#246;st Internet">Wi-Fi</label>
                 </div>
                 <div class="unit">
                   <input id="guide-categories-alcohol" type="checkbox"  value="Alkoholtillst&#229;nd" name="Categories[Alkoholtillst&#229;nd]" />
-                  <label class="guide-category-alcohol" for="guide-categories-alcohol">Alkoholtillst&#229;nd</label>
+                  <label class="guide-category-alcohol" for="guide-categories-alcohol" title="Filtrera p&#229; restauranger med alkoholtillst&#229;nd">Alkoholtillst&#229;nd</label>
                 </div>
                 <div class="unit">
                   <input id="guide-categories-kaffe" type="checkbox" value="Kaffe ing&#229;r" name="Categories[Kaffe ing&#229;r]" />
-                  <label class="guide-category-kaffe" for="guide-categories-kaffe">Kaffe ing&#229;r</label>
+                  <label class="guide-category-kaffe" for="guide-categories-kaffe" title="Filtrera p&#229; restauranger d&#228;r kaffe ing&#229;r i lunchen">Kaffe ing&#229;r</label>
                 </div>
                 <div class="unit">
                   <input id="guide-categories-cardpayment" type="checkbox" value="Kortbetalning" name="Categories[Kortbetalning]" />
-                  <label class="guide-category-cardpayment" for="guide-categories-cardpayment">Kortbetalning</label>
+                  <label class="guide-category-cardpayment" for="guide-categories-cardpayment" title="Filtrera p&#229; restauranger d&#228;r kortbetalning &#228;r m&#246;jlig">Kortbetalning</label>
                 </div>
                 <div class="unit">
                   <input id="guide-categories-handicap" type="checkbox" value="Handikappanpassat" name="Categories[Handikappanpassat]" />
-                  <label class="guide-category-handicap" for="guide-categories-handicap">Handikappanpassat</label>
+                  <label class="guide-category-handicap" for="guide-categories-handicap" title="Filtrera p&#229; restauranger som &#228;r handikappanpassade">Handikappanpassat</label>
                 </div>
               </fieldset>
             </form>
