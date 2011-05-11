@@ -17,6 +17,22 @@
   position: relative;
 }
 
+
+.mobil-link-hn a, .mobil-link-hp a, .mobil-link-ttela a, .mobil-link-bohu a {color:#8BA259 !important; font-size:120%; font-weight:bold; text-decoration:underline !important;}
+.mobil-link-hn a:hover, .mobil-link-hp a:hover, .mobil-link-ttela a:hover, .mobil-link-bohu a:hover {color:#333333 !important;}
+
+.guide-hn #guide-wrapper .header .mobil-link-hn {position:absolute; top:200px; right:310px;}
+.guide-hn #guide-wrapper .header .mobil-link-hp, .guide-hn #guide-wrapper .header .mobil-link-ttela, .guide-hn #guide-wrapper .header .mobil-link-bohu {display:none;}
+
+.guide-hp #guide-wrapper .header .mobil-link-hp {position:absolute; top:200px; right:310px;}
+.guide-hp #guide-wrapper .header .mobil-link-hn, .guide-hp #guide-wrapper .header .mobil-link-ttela, .guide-hp #guide-wrapper .header .mobil-link-bohu {display:none;}
+
+.guide-ttela #guide-wrapper .header .mobil-link-ttela {position:absolute; top:200px; right:310px;}
+.guide-ttela #guide-wrapper .header .mobil-link-hp, .guide-ttela #guide-wrapper .header .mobil-link-hn, .guide-ttela #guide-wrapper .header .mobil-link-bohu {display:none;}
+
+.guide-bohu #guide-wrapper .header .mobil-link-bohu {position:absolute; top:200px; right:310px;}
+.guide-bohu #guide-wrapper .header .mobil-link-hp, .guide-bohu #guide-wrapper .header .mobil-link-ttela, .guide-bohu #guide-wrapper .header .mobil-link-hn {display:none;}
+
 .guide-hp .header {
   width: 990px;
   height: 255px;
@@ -378,7 +394,7 @@ h1, h2, h3, h4 {
   bottom: 4px;
 }
 
-.line.krogare-galleri .galleri-item .item-inner .vcard {display:none;}
+.line.krogare-galleri .galleri-item .item-inner .vcard {display:none !important;}
 
 /*	Listvy  */
 
