@@ -88,10 +88,10 @@
               </fieldset>
             </form>
           </div>
-          <div class="mobil-link-hp"><a href="http://m.lunchguiden.hallandsposten.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet">Lunchguidens mobilsajt</a></div>
-          <div class="mobil-link-hn"><a href="http://m.lunchguiden.hn.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet">Lunchguidens mobilsajt</a></div>
-          <div class="mobil-link-ttela"><a href="http://m.lunchguiden.ttela.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet">Lunchguidens mobilsajt</a></div>
-          <div class="mobil-link-bohu"><a href="http://m.lunchguiden.bohuslaningen.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet">Lunchguidens mobilsajt</a></div>
+          <div class="mobil-link-hp"><a href="http://m.lunchguiden.hallandsposten.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet&#33;">Till Lunchguidens mobilsajt</a></div>
+          <div class="mobil-link-hn"><a href="http://m.lunchguiden.hn.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet&#33;">Till Lunchguidens mobilsajt</a></div>
+          <div class="mobil-link-ttela"><a href="http://m.lunchguiden.ttela.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet&#33;">Till Lunchguidens mobilsajt</a></div>
+          <div class="mobil-link-bohu"><a href="http://m.lunchguiden.bohuslaningen.se/" title="Surfar du p&#229; mobiltelefon&#63; &#214;ppna v&#229;r mobilsajt ist&#228;llet&#33;">Till Lunchguidens mobilsajt</a></div>
         </div>
         <div id="guide-ad-1">
         	<div id="PubTop2"></div>
