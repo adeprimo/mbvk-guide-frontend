@@ -9,6 +9,8 @@
 /* //reset */
 
 /* Sajt specifik CSS */
+.guide-hn, .guide-hp, .guide-ttela, .guide-bohu {position:relative;}
+
 .guide-hn .header {
   width: 990px;
   height: 255px;
@@ -17,6 +19,7 @@
   position: relative;
 }
 
+/* Mobillänk */
 
 .mobil-link-hn a, .mobil-link-hp a, .mobil-link-ttela a, .mobil-link-bohu a {color:#8BA259 !important; font-size:120%; font-weight:bold; text-decoration:underline !important;}
 .mobil-link-hn a:hover, .mobil-link-hp a:hover, .mobil-link-ttela a:hover, .mobil-link-bohu a:hover {color:#333333 !important;}
@@ -32,6 +35,8 @@
 
 .guide-bohu #guide-wrapper .header .mobil-link-bohu {position:absolute; top:200px; right:310px;}
 .guide-bohu #guide-wrapper .header .mobil-link-hp, .guide-bohu #guide-wrapper .header .mobil-link-ttela, .guide-bohu #guide-wrapper .header .mobil-link-hn {display:none;}
+
+/* //mobillänk */
 
 .guide-hp .header {
   width: 990px;
