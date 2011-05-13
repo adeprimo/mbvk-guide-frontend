@@ -16,7 +16,6 @@
   <xsl:variable name="url"><xsl:text disable-output-escaping="yes">{{ URL }}</xsl:text></xsl:variable>
   
   <xsl:template match="/">
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
       <link rel="stylesheet" href="{$file-root}/styles.css" />
       <div class="guide-outer"><div class="guide-shadow">
       <div id="guide-wrapper">
