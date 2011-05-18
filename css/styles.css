@@ -561,11 +561,19 @@ h1, h2, h3, h4 {
 	text-align:center;
 }
 
+#guide-modal .restaurant-images.line {
+	max-height:125px;
+	overflow:hidden;
+}
+
 #guide-modal .restaurant-images.line .unit {
 	margin:0 5px 0 0;
+	display:inline;
+	float: none !important;
 }
 #guide-modal .restaurant-images.line .unit img {
 	max-width:200px;
+	display:inline;
 }
 
 #guide-modal #guide-modal-content #guide-modal-inner h2.structural {
