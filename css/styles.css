@@ -485,6 +485,7 @@ h1, h2, h3, h4 {
   width: 820px;
   overflow: auto;
   font-weight:bold;
+  *border:15px solid #444444;
 }
 
 #guide-modal-inner .lunch-pris {
