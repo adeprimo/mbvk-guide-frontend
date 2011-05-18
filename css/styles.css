@@ -469,8 +469,8 @@ h1, h2, h3, h4 {
 /*	Modal detaljvy  */
 
 #guide-modal {
-  position: fixed;
-  top: 30px;
+  position: absolute;
+  top: 80px;
   left: 50%;
   background-color: #444;
   background-color: rgba(0, 0, 0, .6);
