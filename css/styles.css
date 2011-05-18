@@ -9,7 +9,8 @@
 /* //reset */
 
 /* Sajt specifik CSS */
-.guide-hn, .guide-hp, .guide-ttela, .guide-bohu {position:relative;}
+.guide-hn, .guide-hp {position:relative;}
+.guide-ttela, .guide-bohu {position:relative; margin-left:10px;}
 
 .guide-hn .header {
   width: 990px;
@@ -24,10 +25,10 @@
 .mobil-link-hn a, .mobil-link-hp a, .mobil-link-ttela a, .mobil-link-bohu a {color:#8BA259 !important; font-size:110%; font-weight:bold; text-decoration:underline !important;}
 .mobil-link-hn a:hover, .mobil-link-hp a:hover, .mobil-link-ttela a:hover, .mobil-link-bohu a:hover {color:#FFFFFF !important;}
 
-.guide-hn #guide-wrapper .header .mobil-link-hn {position:absolute; top:168px; right:104px;}
+.guide-hn #guide-wrapper .header .mobil-link-hn {position:absolute; top:164px; right:100px;}
 .guide-hn #guide-wrapper .header .mobil-link-hp, .guide-hn #guide-wrapper .header .mobil-link-ttela, .guide-hn #guide-wrapper .header .mobil-link-bohu {display:none;}
 
-.guide-hp #guide-wrapper .header .mobil-link-hp {position:absolute; top:168px; right:104px;}
+.guide-hp #guide-wrapper .header .mobil-link-hp {position:absolute; top:173px; right:26px;}
 .guide-hp #guide-wrapper .header .mobil-link-hn, .guide-hp #guide-wrapper .header .mobil-link-ttela, .guide-hp #guide-wrapper .header .mobil-link-bohu {display:none;}
 
 .guide-ttela #guide-wrapper .header .mobil-link-ttela {position:absolute; top:168px; right:104px;}
@@ -469,12 +470,13 @@ h1, h2, h3, h4 {
 
 #guide-modal {
   position: fixed;
-  top: 120px;
+  top: 30px;
   left: 50%;
   background-color: #444;
   background-color: rgba(0, 0, 0, .6);
   padding: 20px;
   margin-left: -445px;
+  z-index: 500;
 }
 
 #guide-modal-inner {
@@ -572,6 +574,7 @@ h1, h2, h3, h4 {
 	color:#426B7F !important;
 	font-size:140%;
 	font-style:italic;
+	margin-bottom: 10px;
 }
 
 /* //modal detaljvy */
