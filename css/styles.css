@@ -268,7 +268,7 @@ h1, h2, h3, h4 {
 
 #guide-datepicker input {
   position: absolute;
-  visibility: hidden; 
+  left: -999em;
 }
 
 .dp-label {
