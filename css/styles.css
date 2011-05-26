@@ -564,6 +564,7 @@ h1, h2, h3, h4 {
 #guide-modal .restaurant-images.line {
 	max-height:125px;
 	overflow:hidden;
+	text-align:center;
 }
 
 #guide-modal .restaurant-images.line .unit {
