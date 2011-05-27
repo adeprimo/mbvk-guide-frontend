@@ -234,7 +234,8 @@ h1, h2, h3, h4 {
   font-style: italic; 
 }
 
-.lunch-text p {
+.lunch-text p, 
+.lunch-text li {
   margin: 0;
   padding: 0 0 8px;
   line-height: 1.3em;
@@ -429,6 +430,8 @@ h1, h2, h3, h4 {
 .krogare-lista .item-image {
    float: left;
    margin: 0;
+   max-height:125px;
+   max-width:200px;
 }
 
 .krogare-lista .lunch-text { 
