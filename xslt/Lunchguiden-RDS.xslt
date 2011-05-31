@@ -15,8 +15,8 @@
   <xsl:variable name="mail"><xsl:text disable-output-escaping="yes">{{ Email }}</xsl:text></xsl:variable>
   <xsl:variable name="url"><xsl:text disable-output-escaping="yes">{{ URL }}</xsl:text></xsl:variable>
   
-  <xsl:template match="/">
-      <link rel="stylesheet" href="{$file-root}/styles.css" />
+  <xsl:template match="/"><link rel="stylesheet" href="{$file-root}/styles.css" />
+      
       <div class="guide-outer"><div class="guide-shadow">
       <div id="guide-wrapper">
         <div class="header">
@@ -202,8 +202,8 @@
     
     <script id="detaljmall" type="text/html">
       <div>
-        <div id="guide-modal-content">
-          <a id="close-guide-modal" class="block-link" href="#">x</a>
+	  	<a id="close-guide-modal" class="block-link" href="#">x</a>
+        <div id="guide-modal-content">          
           <div id="guide-modal-inner">
             <h2 class="structural">{{ Name }}</h2>
             <div class="restaurant-images line">
@@ -213,6 +213,9 @@
               {{ yield }}
 			</div>
 			<div class="lunch-pris">{{ OtherInfo }}</div>
+			
+			<a href="#" id="{$id}" class="block-link add-to-favorites">G&#246;r till favorit</a>
+			
 			<div class="clearer-description">
               <p>{{ Description }}</p>
               <p class="vcard">
@@ -225,8 +228,7 @@
                 <a class="url" href="{$url}" target="_blank" title="G&#229; till hemsidan">{{ URL }}</a>
               </p>
             </div>
-            <a href="#" id="{$id}" class="block-link add-to-favorites">G&#246;r till favorit</a>
-          </div>
+           </div>
         </div>
       </div>
     </script>
