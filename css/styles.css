@@ -473,7 +473,7 @@ h1, h2, h3, h4 {
 
 #guide-modal {
   position: fixed;
-  top: 10px;
+  top: 40px;
   left: 50%;
   background-color: #444;
   background-color: rgba(0, 0, 0, .6);
@@ -507,15 +507,19 @@ h1, h2, h3, h4 {
 
 #guide-modal-content {
   position: relative;   
+  max-height: 620px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #close-guide-modal {
-  width: 37px;
-  height: 37px;
-  background: #000;
+  width: 32px;
+  padding: 0 1px 0 0;
+  height: 32px;
+  background: none repeat scroll 0 0 #8AA356;
   color: #fff;
   text-align: center;
-  font: normal 27px/35px 'Trebuchet MS', sans-serif;
+  font: bold 27px/1em 'Trebuchet MS',sans-serif;
   position: absolute;
   top: -20px;
   right: -20px;
@@ -539,7 +543,7 @@ h1, h2, h3, h4 {
   line-height: 38px;
   text-align: center;
   font-size: 130%;
-  margin: 20px auto 0;
+  margin: 10px auto;
 }
 
 #guide-modal .modal-weekdays .unit {
