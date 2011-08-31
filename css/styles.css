@@ -599,7 +599,12 @@ h1, h2, h3, h4 {
 /*	debug  */
 
 #guide-ad-1 {
-  position: relative; 
+    position: relative; 
+}
+
+#guide-ad-1 #PubTop2 .movedAd {
+	background: url("http://polopoly.mbvk.se/polopoly/polopoly_fs/1.1343576.1314792213!/image/1682196088.gif") no-repeat scroll 0 0 transparent;	
+	padding: 5px 0 0;
 }
 
 /* #guide-ad-1:before {
